@@ -1,0 +1,137 @@
+/* Write your CSS code here */
+
+.registration-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.successfull-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.non-registraion {
+  display: none;
+}
+
+.registration-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 86%;
+}
+
+.registration-form-heading {
+  color: #ea580c;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.registration-form {
+  background-color: transparent;
+  border-radius: 10px;
+  box-sizing: 0px 4px 16px 0px #475569;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.form-label {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.form-input {
+  background-color: transparent;
+  border-radius: 4px;
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+  padding: 10px;
+  padding-left: 16px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid #9aa5b1;
+}
+
+.error-msg {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0px;
+}
+
+.non-error-msg {
+  display: none;
+}
+
+.form-button {
+  background-color: #ea580c;
+  border-radius: 10px;
+  border: 0px;
+  width: 100%;
+  height: 40px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.success-img {
+  margin-top: 50px;
+}
+
+.successfull-deicription {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.successfull-button {
+  background-color: #ea580c;
+  border-radius: 10px;
+  border: 0px;
+  width: 100%;
+  height: 40px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 576px) {
+  .registration-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 66%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .registration-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 46%;
+  }
+}
